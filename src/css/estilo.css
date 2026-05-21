@@ -331,6 +331,10 @@ select {
   position: relative;
 }
 
+.product-card[hidden] {
+  display: none;
+}
+
 .product-card img {
   aspect-ratio: 1.4;
   background: var(--color-panel);
@@ -401,6 +405,14 @@ td {
 .contact-form {
   display: grid;
   gap: 1rem;
+}
+
+.support-box {
+  background: rgba(255, 122, 0, .1);
+  border: 1px solid rgba(255, 159, 28, .24);
+  border-radius: var(--radius);
+  margin-top: 1.4rem;
+  padding: 1rem;
 }
 
 .field-group {
