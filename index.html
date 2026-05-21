@@ -8,8 +8,19 @@
 </head>
 <body>
   <header class="site-header">
+    <div class="top-strip">
+      <div class="container top-strip-inner">
+        <span>Frete rapido para Sao Paulo</span>
+        <span>Ofertas gamer por tempo limitado</span>
+        <span>Suporte para montar seu primeiro PC</span>
+      </div>
+    </div>
     <nav class="navbar" aria-label="Navegacao principal">
       <a class="brand" href="index.html">FPS<span>First Pc's</span></a>
+      <form class="search-box" role="search">
+        <label class="sr-only" for="siteSearch">Buscar produtos</label>
+        <input id="siteSearch" type="search" placeholder="Buscar PC gamer, perifericos, upgrades...">
+      </form>
       <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">Menu</button>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
@@ -21,10 +32,10 @@
   </header>
 
   <main>
-    <section class="hero" id="home">
+    <section class="hero commerce-hero" id="home">
       <div class="container hero-grid">
         <div class="hero-content">
-          <p class="eyebrow">Loja gamer em Sao Paulo</p>
+          <p class="eyebrow">Oferta principal</p>
           <h1>FPS: First Pc's</h1>
           <p class="hero-text">
             PCs gamers, perifericos, upgrades e setups personalizados para quem quer entrar no jogo com performance, suporte e preco justo.
@@ -34,16 +45,39 @@
             <a class="btn btn-secondary" href="pages/contato.html">Falar com a loja</a>
           </div>
         </div>
-        <div class="hero-showcase" aria-label="Setup gamer em destaque">
-          <img src="src/assets/img/setup-gamer.svg" alt="Setup gamer com computador, monitor e teclado iluminados">
+        <div class="deal-card" aria-label="Resumo da oferta gamer">
+          <span class="deal-kicker">Setup pronto</span>
+          <strong>ate 15% OFF</strong>
+          <p>em PCs selecionados com montagem inclusa</p>
         </div>
+      </div>
+    </section>
+
+    <section class="category-band">
+      <div class="container category-grid">
+        <article class="category-tile">
+          <img src="src/assets/img/05_card_pc_gamer.png" alt="PC gamer em promocao">
+          <span>PCs Gamer</span>
+        </article>
+        <article class="category-tile">
+          <img src="src/assets/img/06_card_perifericos.png" alt="Perifericos gamer">
+          <span>Perifericos</span>
+        </article>
+        <article class="category-tile">
+          <img src="src/assets/img/07_card_upgrades.png" alt="Upgrade de pecas gamer">
+          <span>Upgrades</span>
+        </article>
+        <article class="category-tile">
+          <img src="src/assets/img/08_card_cadeiras.png" alt="Cadeiras gamer">
+          <span>Cadeiras</span>
+        </article>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
         <div class="section-heading">
-          <p class="eyebrow">Destaques</p>
+          <p class="eyebrow">Loja gamer completa</p>
           <h2>Do primeiro PC ao setup completo</h2>
         </div>
         <div class="benefit-grid">
@@ -70,12 +104,12 @@
       <div class="container">
         <div class="section-heading">
           <p class="eyebrow">Produtos em destaque</p>
-          <h2>Ofertas para subir de nivel</h2>
+          <h2>Ofertas no estilo que gamer procura</h2>
         </div>
         <div class="product-grid featured-products">
           <article class="product-card">
             <span class="tag">Mais vendido</span>
-            <img src="src/assets/img/pc-starter.svg" alt="PC gamer de entrada FPS Starter">
+            <img src="src/assets/img/05_card_pc_gamer.png" alt="PC gamer de entrada FPS Starter">
             <div class="product-body">
               <h3>FPS Starter</h3>
               <p>PC gamer de entrada para Valorant, Fortnite e Minecraft com desempenho confiavel.</p>
@@ -84,7 +118,7 @@
           </article>
           <article class="product-card">
             <span class="tag tag-hot">Oferta</span>
-            <img src="src/assets/img/pc-pro.svg" alt="PC gamer intermediario FPS Pro">
+            <img src="src/assets/img/10_closeup_pc_rtx.png" alt="PC gamer intermediario FPS Pro">
             <div class="product-body">
               <h3>FPS Pro</h3>
               <p>Setup intermediario com placa de video dedicada para jogar em Full HD no alto.</p>
@@ -93,7 +127,7 @@
           </article>
           <article class="product-card">
             <span class="tag">Setup</span>
-            <img src="src/assets/img/headset-rgb.svg" alt="Headset gamer RGB">
+            <img src="src/assets/img/06_card_perifericos.png" alt="Kit de perifericos RGB">
             <div class="product-body">
               <h3>Kit Perifericos RGB</h3>
               <p>Headset, teclado e mouse com resposta rapida para completar seu primeiro setup.</p>
@@ -101,6 +135,12 @@
             </div>
           </article>
         </div>
+      </div>
+    </section>
+
+    <section class="brand-strip-section">
+      <div class="container">
+        <img src="src/assets/img/11_barra_marcas.png" alt="Marcas gamer parceiras da FPS First Pc's">
       </div>
     </section>
   </main>
