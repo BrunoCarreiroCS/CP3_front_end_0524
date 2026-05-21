@@ -74,12 +74,12 @@ if (contactForm && formFeedback) {
     }
 
     if (!emailIsValid) {
-      formFeedback.textContent = 'Digite um email valido para receber o retorno da loja.';
+      formFeedback.textContent = 'Digite um e-mail válido para receber o retorno da loja.';
       formFeedback.classList.add('error');
       return;
     }
 
-    formFeedback.textContent = 'Mensagem enviada com sucesso! A FPS entrara em contato em breve.';
+    formFeedback.textContent = 'Mensagem enviada com sucesso! A FPS entrará em contato em breve.';
     formFeedback.classList.add('success');
     contactForm.reset();
   });
