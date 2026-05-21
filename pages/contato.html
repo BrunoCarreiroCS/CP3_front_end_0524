@@ -9,7 +9,7 @@
 <body>
   <header class="site-header">
     <nav class="navbar" aria-label="Navegacao principal">
-      <a class="brand" href="../index.html">FPS</a>
+      <a class="brand" href="../index.html">FPS<span>First Pc's</span></a>
       <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">Menu</button>
       <ul class="nav-links">
         <li><a href="../index.html">Home</a></li>
@@ -19,9 +19,59 @@
       </ul>
     </nav>
   </header>
-  <main class="page-shell">
-    <section class="container">
-      <h1>Contato</h1>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Fale com a loja</p>
+        <h1>Vamos montar o setup ideal para voce</h1>
+        <p>Envie sua duvida, seu orcamento ou os jogos que voce pretende rodar. A FPS responde com uma recomendacao clara.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <article class="content-block">
+          <p class="eyebrow">Formulario</p>
+          <h2>Solicite atendimento</h2>
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="field-group">
+              <label for="name">Nome</label>
+              <input type="text" id="name" name="name" placeholder="Seu nome completo" autocomplete="name">
+            </div>
+
+            <div class="field-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" autocomplete="email">
+            </div>
+
+            <div class="field-group">
+              <label for="message">Descricao</label>
+              <textarea id="message" name="message" rows="6" placeholder="Conte o que voce procura: PC completo, upgrade, perifericos ou suporte."></textarea>
+            </div>
+
+            <p class="form-feedback" id="formFeedback" aria-live="polite"></p>
+            <button type="submit">Enviar</button>
+          </form>
+        </article>
+
+        <aside class="contact-card" aria-label="Dados de contato da loja">
+          <p class="eyebrow">Atendimento</p>
+          <h2>FPS: First Pc's</h2>
+          <address>
+            <span><strong>Telefone:</strong> (11) 4002-2026</span>
+            <span><strong>Email:</strong> contato@firstpcs.com.br</span>
+            <span><strong>Endereco:</strong> Av. Paulista, 1420 - Bela Vista, Sao Paulo - SP</span>
+            <span><strong>Instagram:</strong> @fpsfirstpcs</span>
+            <span><strong>TikTok:</strong> @fpsfirstpcs</span>
+            <span><strong>Discord:</strong> FPS First Pc's Community</span>
+          </address>
+
+          <div class="support-box">
+            <h3>Horario de funcionamento</h3>
+            <p>Segunda a sexta, das 9h as 18h. Sabado, das 10h as 14h.</p>
+          </div>
+        </aside>
+      </div>
     </section>
   </main>
   <footer class="site-footer">
