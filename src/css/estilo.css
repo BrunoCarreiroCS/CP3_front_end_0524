@@ -176,6 +176,33 @@ select {
   padding: .65rem .9rem;
 }
 
+.cart-open {
+  align-items: center;
+  background: rgba(255, 122, 0, .12);
+  border: 1px solid rgba(255, 159, 28, .48);
+  border-radius: var(--radius);
+  color: var(--color-text);
+  cursor: pointer;
+  display: inline-flex;
+  font-weight: 900;
+  gap: .45rem;
+  min-height: 44px;
+  padding: .65rem .85rem;
+}
+
+.cart-open span {
+  align-items: center;
+  background: var(--color-orange);
+  border-radius: 999px;
+  color: #111;
+  display: inline-flex;
+  font-size: .82rem;
+  justify-content: center;
+  min-height: 24px;
+  min-width: 24px;
+  padding: 0 .35rem;
+}
+
 .hero {
   min-height: 560px;
   padding: 4.5rem 0 3.2rem;
@@ -227,10 +254,11 @@ select {
 
 .hero-media img {
   aspect-ratio: 1.82;
+  background: #050508;
   border: 1px solid rgba(255, 122, 0, .35);
   border-radius: var(--radius);
   box-shadow: var(--shadow-store);
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
 }
 
@@ -361,7 +389,8 @@ select {
 
 .category-tile img {
   aspect-ratio: 1.65;
-  object-fit: cover;
+  background: #050508;
+  object-fit: contain;
   width: 100%;
 }
 
@@ -485,9 +514,9 @@ select {
 }
 
 .product-card img {
-  aspect-ratio: 1.22;
+  aspect-ratio: 1.36;
   background: #050508;
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
 }
 
@@ -528,9 +557,11 @@ select {
 }
 
 .brand-strip-section img {
+  background: #050508;
   border: 1px solid rgba(255, 122, 0, .24);
   border-radius: var(--radius);
   box-shadow: var(--shadow-store);
+  object-fit: contain;
   width: 100%;
 }
 
@@ -559,12 +590,13 @@ select {
 
 .showcase-card img {
   aspect-ratio: 1.45;
-  object-fit: cover;
+  background: #050508;
+  object-fit: contain;
   width: 100%;
 }
 
 .showcase-card-wide img {
-  aspect-ratio: 2.35;
+  aspect-ratio: 2.55;
 }
 
 .showcase-card span {
@@ -591,7 +623,117 @@ select {
 .story-image img,
 .contact-card-visual img {
   aspect-ratio: 1.6;
-  object-fit: cover;
+  object-fit: contain;
+  width: 100%;
+}
+
+.cart-panel {
+  background: #0b0b0f;
+  border-left: 2px solid rgba(255, 122, 0, .5);
+  bottom: 0;
+  box-shadow: -18px 0 42px rgba(0, 0, 0, .48);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  max-width: 420px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transform: translateX(110%);
+  transition: transform var(--transition);
+  width: min(92vw, 420px);
+  z-index: 50;
+}
+
+.cart-panel.is-open {
+  transform: translateX(0);
+}
+
+.cart-panel-header,
+.cart-panel-footer {
+  border-bottom: 1px solid rgba(255, 255, 255, .08);
+  padding: 1.25rem;
+}
+
+.cart-panel-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-panel-header h2 {
+  line-height: 1;
+}
+
+.cart-close,
+.cart-clear,
+.cart-item button {
+  background: rgba(255, 255, 255, .06);
+  border: 1px solid rgba(255, 159, 28, .32);
+  border-radius: var(--radius);
+  color: var(--color-text);
+  cursor: pointer;
+  font-weight: 800;
+  padding: .6rem .8rem;
+}
+
+.cart-items {
+  display: grid;
+  gap: .85rem;
+  overflow-y: auto;
+  padding: 1.25rem;
+}
+
+.cart-item {
+  align-items: center;
+  background: rgba(255, 255, 255, .04);
+  border: 1px solid rgba(255, 255, 255, .08);
+  border-radius: var(--radius);
+  display: grid;
+  gap: .8rem;
+  grid-template-columns: 82px 1fr;
+  padding: .75rem;
+}
+
+.cart-item img {
+  aspect-ratio: 1;
+  background: #050508;
+  border-radius: var(--radius);
+  object-fit: contain;
+  width: 82px;
+}
+
+.cart-item h3 {
+  font-size: 1rem;
+}
+
+.cart-item p,
+.cart-empty {
+  color: var(--color-muted);
+}
+
+.cart-item button {
+  margin-top: .45rem;
+}
+
+.cart-panel-footer {
+  border-bottom: 0;
+  border-top: 1px solid rgba(255, 255, 255, .08);
+  display: grid;
+  gap: .8rem;
+}
+
+.cart-total-line {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-total-line strong {
+  color: var(--color-orange-light);
+  font-size: 1.35rem;
+}
+
+.cart-checkout {
   width: 100%;
 }
 
@@ -764,6 +906,10 @@ address strong {
     order: 3;
     max-width: none;
     width: 100%;
+  }
+
+  .cart-open {
+    margin-left: auto;
   }
 
   .navbar {
