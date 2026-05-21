@@ -1,0 +1,6 @@
+Nome do projeto: FPS: First Pc's
+Nome do aluno: Bruno Carreiro dos Santos
+Turma: 1ESPI
+Tema: Loja Gamer
+Link do repositório: https://github.com/BrunoCarreiroCS/CP3_front_end_0524.git
+Link GitHub Pages: [INSERIR LINK AQUI]
