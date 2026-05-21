@@ -9,7 +9,7 @@
 <body>
   <header class="site-header">
     <nav class="navbar" aria-label="Navegacao principal">
-      <a class="brand" href="index.html">FPS</a>
+      <a class="brand" href="index.html">FPS<span>First Pc's</span></a>
       <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">Menu</button>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
@@ -21,17 +21,104 @@
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Loja gamer em Sao Paulo</p>
+          <h1>FPS: First Pc's</h1>
+          <p class="hero-text">
+            PCs gamers, perifericos, upgrades e setups personalizados para quem quer entrar no jogo com performance, suporte e preco justo.
+          </p>
+          <div class="hero-actions" aria-label="Acoes principais">
+            <a class="btn btn-primary" href="pages/portifolio.html">Ver ofertas</a>
+            <a class="btn btn-secondary" href="pages/contato.html">Falar com a loja</a>
+          </div>
+        </div>
+        <div class="hero-showcase" aria-label="Setup gamer em destaque">
+          <img src="src/assets/img/setup-gamer.svg" alt="Setup gamer com computador, monitor e teclado iluminados">
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
       <div class="container">
-        <p class="eyebrow">Loja gamer</p>
-        <h1>FPS: First Pc's</h1>
-        <p>PCs gamers, perifericos, upgrades e setups personalizados.</p>
+        <div class="section-heading">
+          <p class="eyebrow">Destaques</p>
+          <h2>Do primeiro PC ao setup completo</h2>
+        </div>
+        <div class="benefit-grid">
+          <article class="info-card">
+            <span class="card-icon">01</span>
+            <h3>Montagem personalizada</h3>
+            <p>Escolha as pecas com orientacao de quem entende de compatibilidade, temperatura e custo-beneficio.</p>
+          </article>
+          <article class="info-card">
+            <span class="card-icon">02</span>
+            <h3>Alta performance para jogos</h3>
+            <p>Configuracoes pensadas para FPS estavel, carregamento rapido e upgrades sem dor de cabeca.</p>
+          </article>
+          <article class="info-card">
+            <span class="card-icon">03</span>
+            <h3>Suporte e garantia</h3>
+            <p>Atendimento antes e depois da compra, com teste de bancada e garantia em cada montagem.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="ofertas">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Produtos em destaque</p>
+          <h2>Ofertas para subir de nivel</h2>
+        </div>
+        <div class="product-grid featured-products">
+          <article class="product-card">
+            <span class="tag">Mais vendido</span>
+            <img src="src/assets/img/pc-starter.svg" alt="PC gamer de entrada FPS Starter">
+            <div class="product-body">
+              <h3>FPS Starter</h3>
+              <p>PC gamer de entrada para Valorant, Fortnite e Minecraft com desempenho confiavel.</p>
+              <strong>R$ 3.499,90</strong>
+            </div>
+          </article>
+          <article class="product-card">
+            <span class="tag tag-hot">Oferta</span>
+            <img src="src/assets/img/pc-pro.svg" alt="PC gamer intermediario FPS Pro">
+            <div class="product-body">
+              <h3>FPS Pro</h3>
+              <p>Setup intermediario com placa de video dedicada para jogar em Full HD no alto.</p>
+              <strong>R$ 5.899,90</strong>
+            </div>
+          </article>
+          <article class="product-card">
+            <span class="tag">Setup</span>
+            <img src="src/assets/img/headset-rgb.svg" alt="Headset gamer RGB">
+            <div class="product-body">
+              <h3>Kit Perifericos RGB</h3>
+              <p>Headset, teclado e mouse com resposta rapida para completar seu primeiro setup.</p>
+              <strong>R$ 599,90</strong>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>&copy; <span data-current-year></span> FPS: First Pc's.</p>
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="index.html">FPS<span>First Pc's</span></a>
+        <p>Performance real para quem esta montando o primeiro PC gamer.</p>
+      </div>
+      <address>
+        <strong>Contato</strong>
+        <span>Telefone: (11) 4002-2026</span>
+        <span>Email: contato@firstpcs.com.br</span>
+        <span>Redes: @fpsfirstpcs</span>
+      </address>
+    </div>
+    <p class="copyright">&copy; <span data-current-year></span> FPS: First Pc's. Todos os direitos reservados.</p>
   </footer>
 
   <script src="src/js/script.js"></script>

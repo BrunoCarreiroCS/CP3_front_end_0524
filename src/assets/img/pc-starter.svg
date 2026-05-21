@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" role="img" aria-labelledby="title desc">
+  <title id="title">PC gamer de entrada</title>
+  <desc id="desc">Gabinete gamer compacto com iluminacao laranja.</desc>
+  <rect width="420" height="300" rx="24" fill="#12121a"/>
+  <rect x="116" y="42" width="188" height="216" rx="20" fill="#08080c" stroke="#30303c" stroke-width="6"/>
+  <rect x="142" y="68" width="78" height="164" rx="12" fill="#171722"/>
+  <path d="M154 206l52-90 52 90z" fill="#ff7a00"/>
+  <circle cx="258" cy="100" r="24" fill="#12121a" stroke="#ff9f1c" stroke-width="7"/>
+  <circle cx="258" cy="178" r="34" fill="#12121a" stroke="#ff7a00" stroke-width="7"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Setup gamer completo</title>
+  <desc id="desc">Ilustracao de mesa gamer com gabinete, monitor e perifericos em preto e laranja.</desc>
+  <rect width="720" height="520" fill="#0b0b0f"/>
+  <rect x="48" y="74" width="624" height="372" rx="28" fill="#12121a" stroke="#2a2a36" stroke-width="4"/>
+  <rect x="106" y="118" width="362" height="214" rx="18" fill="#08080c" stroke="#ff7a00" stroke-width="7"/>
+  <path d="M140 286h294V154H140z" fill="#181824"/>
+  <path d="M172 254l76-72 54 52 42-42 60 62z" fill="#ff7a00" opacity=".9"/>
+  <circle cx="380" cy="176" r="24" fill="#ff9f1c"/>
+  <rect x="252" y="334" width="72" height="56" fill="#2a2a36"/>
+  <rect x="196" y="386" width="184" height="22" rx="11" fill="#ff7a00"/>
+  <rect x="502" y="128" width="94" height="238" rx="18" fill="#08080c" stroke="#ff9f1c" stroke-width="6"/>
+  <circle cx="549" cy="192" r="28" fill="#12121a" stroke="#ff7a00" stroke-width="7"/>
+  <circle cx="549" cy="280" r="36" fill="#12121a" stroke="#ff7a00" stroke-width="7"/>
+  <rect x="156" y="424" width="322" height="30" rx="15" fill="#1d1d29"/>
+  <path d="M188 439h258" stroke="#ff9f1c" stroke-width="6" stroke-linecap="round" stroke-dasharray="12 18"/>
+  <rect x="504" y="408" width="92" height="54" rx="22" fill="#1d1d29" stroke="#ff7a00" stroke-width="5"/>
+  <path d="M550 408v54" stroke="#ff7a00" stroke-width="4"/>
+</svg>
