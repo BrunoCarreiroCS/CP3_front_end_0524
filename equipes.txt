@@ -4,3 +4,5 @@ Turma: 1ESPI
 Tema: Loja Gamer
 Link do repositório: https://github.com/BrunoCarreiroCS/CP3_front_end_0524.git
 Link GitHub Pages: [INSERIR LINK AQUI]
+
+Observação: preencher o link do GitHub Pages após publicar o projeto.
