@@ -9,7 +9,7 @@
 <body>
   <header class="site-header">
     <nav class="navbar" aria-label="Navegacao principal">
-      <a class="brand" href="../index.html">FPS</a>
+      <a class="brand" href="../index.html">FPS<span>First Pc's</span></a>
       <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">Menu</button>
       <ul class="nav-links">
         <li><a href="../index.html">Home</a></li>
@@ -19,9 +19,100 @@
       </ul>
     </nav>
   </header>
-  <main class="page-shell">
-    <section class="container">
-      <h1>Portifolio gamer</h1>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Portifolio</p>
+        <h1>Produtos gamers para cada fase do seu setup</h1>
+        <p>Compare PCs, perifericos e upgrades selecionados pela FPS para entregar desempenho real nos jogos.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Categorias</p>
+          <h2>Escolha seu nivel</h2>
+          <p>Use os filtros para encontrar o produto ideal para o seu objetivo.</p>
+        </div>
+
+        <div class="filter-actions" aria-label="Filtros de produtos">
+          <button class="filter-btn active" type="button" data-filter="todos">Todos</button>
+          <button class="filter-btn" type="button" data-filter="entrada">PC Gamer de entrada</button>
+          <button class="filter-btn" type="button" data-filter="intermediario">PC Gamer intermediario</button>
+          <button class="filter-btn" type="button" data-filter="high-end">PC Gamer high-end</button>
+          <button class="filter-btn" type="button" data-filter="perifericos">Perifericos</button>
+          <button class="filter-btn" type="button" data-filter="upgrade">Upgrade de pecas</button>
+        </div>
+
+        <div class="product-grid catalog-grid" data-product-grid>
+          <article class="product-card" data-category="entrada" data-promo="true">
+            <span class="tag tag-hot">Promocao</span>
+            <img src="../src/assets/img/pc-starter.svg" alt="PC Gamer FPS Starter">
+            <div class="product-body">
+              <h3>FPS Starter</h3>
+              <p>PC gamer de entrada para e-sports, estudo e lives leves.</p>
+              <strong>R$ 3.499,90</strong>
+              <button type="button">Comprar</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="intermediario" data-promo="true">
+            <span class="tag tag-hot">Destaque</span>
+            <img src="../src/assets/img/pc-pro.svg" alt="PC Gamer FPS Pro">
+            <div class="product-body">
+              <h3>FPS Pro</h3>
+              <p>Computador equilibrado para jogar em Full HD com alto FPS.</p>
+              <strong>R$ 5.899,90</strong>
+              <button type="button">Ver detalhes</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="high-end" data-promo="false">
+            <span class="tag">High-end</span>
+            <img src="../src/assets/img/pc-elite.svg" alt="PC Gamer FPS Elite">
+            <div class="product-body">
+              <h3>FPS Elite</h3>
+              <p>Maquina premium para jogos AAA, streaming e criacao de conteudo.</p>
+              <strong>R$ 9.799,90</strong>
+              <button type="button">Comprar</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="perifericos" data-promo="true">
+            <span class="tag tag-hot">Combo</span>
+            <img src="../src/assets/img/headset-rgb.svg" alt="Headset gamer RGB">
+            <div class="product-body">
+              <h3>Headset Titan RGB</h3>
+              <p>Audio imersivo, microfone flexivel e acabamento confortavel.</p>
+              <strong>R$ 249,90</strong>
+              <button type="button">Comprar</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="perifericos" data-promo="false">
+            <span class="tag">Periferico</span>
+            <img src="../src/assets/img/teclado-mecanico.svg" alt="Teclado mecanico gamer">
+            <div class="product-body">
+              <h3>Teclado Strike 75%</h3>
+              <p>Teclas mecanicas, resposta rapida e iluminacao laranja.</p>
+              <strong>R$ 329,90</strong>
+              <button type="button">Ver detalhes</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="upgrade" data-promo="true">
+            <span class="tag tag-hot">Upgrade</span>
+            <img src="../src/assets/img/gpu-upgrade.svg" alt="Placa de video para upgrade gamer">
+            <div class="product-body">
+              <h3>Upgrade GPU Boost</h3>
+              <p>Pacote com placa de video, instalacao e teste de desempenho.</p>
+              <strong>R$ 2.199,90</strong>
+              <button type="button">Comprar</button>
+            </div>
+          </article>
+        </div>
+      </div>
     </section>
   </main>
   <footer class="site-footer">

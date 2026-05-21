@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" role="img" aria-labelledby="title desc">
+  <title id="title">Teclado mecanico gamer</title>
+  <desc id="desc">Teclado mecanico compacto com teclas iluminadas.</desc>
+  <rect width="420" height="300" rx="24" fill="#12121a"/>
+  <rect x="54" y="90" width="312" height="120" rx="18" fill="#08080c" stroke="#ff7a00" stroke-width="6"/>
+  <g fill="#1d1d29" stroke="#ff9f1c" stroke-width="3">
+    <rect x="82" y="118" width="34" height="28" rx="5"/>
+    <rect x="126" y="118" width="34" height="28" rx="5"/>
+    <rect x="170" y="118" width="34" height="28" rx="5"/>
+    <rect x="214" y="118" width="34" height="28" rx="5"/>
+    <rect x="258" y="118" width="34" height="28" rx="5"/>
+    <rect x="302" y="118" width="34" height="28" rx="5"/>
+    <rect x="82" y="158" width="34" height="28" rx="5"/>
+    <rect x="126" y="158" width="78" height="28" rx="5"/>
+    <rect x="214" y="158" width="34" height="28" rx="5"/>
+    <rect x="258" y="158" width="78" height="28" rx="5"/>
+  </g>
+</svg>
