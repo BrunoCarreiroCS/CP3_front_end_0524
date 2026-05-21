@@ -44,14 +44,14 @@ filterButtons.forEach((button) => {
 });
 
 productButtons.forEach((button) => {
+  const originalLabel = button.textContent;
+
   button.addEventListener('click', () => {
     const productName = button.closest('.product-card').querySelector('h3').textContent;
     button.textContent = `${productName} selecionado`;
 
     window.setTimeout(() => {
-      button.textContent = button.textContent.includes('FPS Pro') || button.textContent.includes('Teclado')
-        ? 'Ver detalhes'
-        : 'Comprar';
+      button.textContent = originalLabel;
     }, 1800);
   });
 });

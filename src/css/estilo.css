@@ -326,6 +326,17 @@ select {
   color: var(--color-muted);
 }
 
+.clean-list {
+  display: grid;
+  gap: .8rem;
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.clean-list strong {
+  color: var(--color-orange-light);
+}
+
 .product-card {
   overflow: hidden;
   position: relative;
@@ -413,6 +424,10 @@ td {
   border-radius: var(--radius);
   margin-top: 1.4rem;
   padding: 1rem;
+}
+
+.support-box h3 {
+  margin-bottom: .35rem;
 }
 
 .field-group {
@@ -550,6 +565,11 @@ address strong {
 
   .btn,
   .filter-btn {
+    width: 100%;
+  }
+
+  .product-card button,
+  .contact-form button {
     width: 100%;
   }
 }
